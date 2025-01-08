@@ -1,0 +1,2 @@
+select first_name, substr(first_name, 1, instr(first_name, 'A')-1)"primeraparte", substr(first_name,instr(first_name, 'A')+1)"segundaparte", 
+substr(first_name, 1, instr(first_name, 'A')-1) || substr(first_name,instr(first_name, 'A')+1)"concatenacion" from employee; 
